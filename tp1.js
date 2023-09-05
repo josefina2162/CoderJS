@@ -20,6 +20,8 @@ let precio5 = 12000;
 let servicio6 = "Servicio de DJ con estructuras";
 let precio6 = 15000;
 
+
+//Cree una función para poder mostrar el listado de todos los servicios 
 function mostrarServiciosDisponibles() {
   let listaServicios = "Servicios disponibles, recuerde el número del servicio para ingresarlo posteriormente:\n";
   listaServicios += `1: ${servicio1} - $${precio1}\n`;
