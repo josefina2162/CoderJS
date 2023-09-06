@@ -39,16 +39,18 @@ function calcularCostoTotal() {
   mostrarServiciosDisponibles();
 
   while (true) {
-    const seleccion = (+prompt("Ingrese el número del producto o servicio (o escriba 'salir' para terminar):"));
-
-
-// Use el isNaN para determinar si el valor proporcionado por el usuario no es un número
+    const entrada = prompt("Ingrese el número del producto o servicio (o escriba 'salir' para terminar):");
   
-if (isNaN(seleccion)) {
+    if (entrada === 'salir') {
+      break;
+    }
+  
+    const seleccion = +entrada;
+  
+    if (isNaN(seleccion)) {
       alert("Por favor, ingrese un número válido.");
       continue;
     }
-
     if (seleccion === 0) {
       break; // 
     }
