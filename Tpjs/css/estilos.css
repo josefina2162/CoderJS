@@ -1,0 +1,37 @@
+/* Estilos personalizados */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 20px;
+}
+
+.dropdown-menu {
+  width: 200px;
+}
+
+.fondo {
+  background-color: #53A69D;
+}
+
+.titulo {
+  font-family: 'Gotu', sans-serif;
+  color: #F6FEFF;
+  font-weight: 1200;
+  font-size: 200%;
+}
+
+/* Cambiar el color del botón en el Dropdown */
+.botonDrop .btn-secondary {
+  background-color: #015958; 
+}
+
+.totalCarrito {
+  display: none;
+  color: #015958;
+  background-color: #F6FEFF;
+  border-radius: 5px;
+}
