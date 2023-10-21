@@ -1,0 +1,38 @@
+[
+    {
+      "nombre": "Pista de baile",
+      "precio": 8000
+    },
+    {
+      "nombre": "Fotógrafo",
+      "precio": 7000
+    },
+    {
+      "nombre": "Barra de tragos",
+      "precio": 20000
+    },
+    {
+      "nombre": "Mesa de dulces",
+      "precio": 15000
+    },
+    {
+      "nombre": "Picadas",
+      "precio": 10000
+    },
+    {
+      "nombre": "Asador",
+      "precio": 5000
+    },
+    {
+      "nombre": "Mozos",
+      "precio": 35000
+    },
+    {
+      "nombre": "Cascada de chocolate",
+      "precio": 4000
+    },
+    {
+      "nombre": "DJ y luces",
+      "precio": 55000
+    }
+  ]

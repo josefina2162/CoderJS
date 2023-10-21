@@ -24,6 +24,14 @@
   font-size: 200%;
 }
 
+.subtitulo{
+
+  color: #F6FEFF;
+  font-weight: 1200;
+  font-size: 150%;
+
+}
+
 /* Cambiar el color del botón en el Dropdown */
 .botonDrop .btn-secondary {
   background-color: #015958; 
